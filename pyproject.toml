@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "country-by-name"
+version = "0.1.0"
+description = "first release"
+authors = ["Andrii Dniprenko <adneprenko@gmail.com>"]
+readme = "README.md"
+packages = [{include = "country_by_name"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+geopandas = "^0.13.2"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
